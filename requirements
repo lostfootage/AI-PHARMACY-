@@ -6,3 +6,10 @@ transformers
 torch
 python-multipart
 pytesseract
+
+
+echo "# Update to trigger Azure deployment" >> README.md
+
+git add .
+git commit -m "Trigger Azure deployment"
+git push origin main
