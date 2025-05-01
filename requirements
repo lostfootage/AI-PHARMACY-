@@ -1,0 +1,8 @@
+%%writefile requirements.txt
+fastapi
+uvicorn
+pillow
+transformers
+torch
+python-multipart
+pytesseract
